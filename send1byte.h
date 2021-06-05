@@ -1,0 +1,1 @@
+void send1byte(uint8_t msgByte);
