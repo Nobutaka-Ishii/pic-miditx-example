@@ -20,7 +20,7 @@
 void as(void);
 
 void main(void) {
-    asm("MOVLW 0b00111100");
+    asm("MOVLW 0b00111110");
 	asm("MOVWF OSCCAL");
 	
 	/* initial configuration */
