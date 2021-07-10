@@ -34,7 +34,7 @@ void main(void) {
 		// NOTE ON
 		send1byte(0x90);
 		send1byte(0x40);
-		send1byte(0x127);
+		send1byte(127);
 		
 		// active sensing
 		as();
@@ -44,7 +44,7 @@ void main(void) {
 		// NOTE OFF
 		send1byte(0x80);
 		send1byte(0x40);
-		send1byte(0x127);
+		send1byte(127);
 		
 		// active sensing
 		as();
